@@ -57,7 +57,7 @@ header article div {
     float: left;
 }
 header article div h1 {
-    color: #007bff;
+    color: #b60000;
     font-size: 3em;
     text-align: left;
     font-weight: 700;
@@ -124,7 +124,7 @@ main section:nth-child(1) article:nth-child(1) h5 {
     padding: 0 0 5px 0;
     margin: 55px 0 0 0;
     letter-spacing: 0.1em;
-    border-bottom: solid 5px #007bff;
+    border-bottom: solid 5px #b60000;
 }
 main section:nth-child(1) article:nth-child(1) p {  }
 
@@ -146,15 +146,24 @@ main section:nth-child(1) article:nth-child(2) h5 {
     font-weight: 800;
     padding: 0 0 5px 0;
     margin: 55px 0 0 0;
-    border-bottom: solid 5px #007bff;
+    border-bottom: solid 5px #b60000;
 }
 main section:nth-child(1) article:nth-child(2) nav {  }
-main section:nth-child(1) article:nth-child(2) nav a {  }
+main section:nth-child(1) article:nth-child(2) nav a { 
+    text-decoration: none;
+    color: black;
+ }
 main section:nth-child(1) article:nth-child(2) nav a i {  }
 main section:nth-child(1) article:nth-child(2) nav a span { }
-main section:nth-child(1) article:nth-child(2) nav a:hover {  }
+main section:nth-child(1) article:nth-child(2) nav a:hover { 
+    color: red;
+ }
 main section:nth-child(1) article:nth-child(2) nav a:hover i {  }
 main section:nth-child(1) article:nth-child(2) nav a:hover span {  }
+
+main section:nth-child(1) article:nth-child(2) nav a:visited { 
+    color: purple;
+ }
 
 main section:nth-child(1) article:nth-child(3) {
     width: 70%;
@@ -172,7 +181,7 @@ main section:nth-child(1) article:nth-child(3) h5 {
     font-weight: 800;
     padding: 0 0 5px 0;
     margin: 55px 0 0 0;
-    border-bottom: solid 5px #007bff;
+    border-bottom: solid 5px #b60000;
 }
 main section:nth-child(1) article:nth-child(3) p {  }
 
@@ -196,7 +205,7 @@ main section:nth-child(2) article:nth-child(1) {
 
 }
 main section:nth-child(2) article:nth-child(1) h4 { 
-    color: blue;
+    color: #b60000;
  }
 main section:nth-child(2) article:nth-child(1) ul {  }
 main section:nth-child(2) article:nth-child(1) ul li {  }
@@ -211,7 +220,7 @@ main section:nth-child(2) article:nth-child(2) {
 
 }
 main section:nth-child(2) article:nth-child(2) h4 {
-    color: blue;
+    color: #b60000;
   }
 main section:nth-child(2) article:nth-child(2) div.caja-info-works {  }
 main section:nth-child(2) article:nth-child(2) div.caja-info-works h6 {  }
@@ -310,7 +319,3 @@ main section:nth-child(2) article:nth-child(2) div.caja-info-works ul li {  }
 @media only screen and (max-width: 349px){
     
 }
-
-
-
-
